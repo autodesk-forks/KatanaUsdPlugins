@@ -53,6 +53,7 @@ install(FILES
         UsdExport/typeConversionMaps.py
         UsdExport/__init__.py
         UsdExport/material.py
+        UsdExport/prmanStatements.py
         DESTINATION lib/python/UsdExport)
 
 add_subdirectory(SuperTools)

@@ -46,6 +46,8 @@ pxr_shared_library(${PXR_PACKAGE}
         katanaPluginApi
         ${vtKatana_LIBRARY}
         Boost::system
+        Boost::regex
+        Boost::filesystem
 
     PUBLIC_CLASSES
         attrMap
